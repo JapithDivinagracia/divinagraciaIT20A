@@ -5,15 +5,18 @@ public class stackArray {
     private int[] stack;
     private int top;
     private int capacity;
+    private int push;
+   
     
+    //Constructor
     
-    public stackArray(int capacity){
-    this.capacity = capacity;
-    this.stack = new int [capacity];
-    this.top = -1;
+    public  stackArray(int capacity) {
+        this.capacity = capacity;
+        stack = new int [capacity];
+        top = -1;
     }
-    
-    public static void main(String[] args) {
+        
+        public static void main(String[] args) {
         stackArray stack = new stackArray(5);
         
         stack.push(10);
