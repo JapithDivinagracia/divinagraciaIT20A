@@ -58,6 +58,8 @@ public class stackLinkedList {
         if (isEmpty()) {
             System.out.println("Stack is empty.");
             return -1;
+            
+            //git 
         }
         return top.data;
     }

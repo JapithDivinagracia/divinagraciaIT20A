@@ -11,6 +11,7 @@ public class stackArray1 {
     this.capacity = capacity;
     this.stack = new int [capacity];
     this.top = -1;
+    //
     }
     
     public static void main(String[] args) {
